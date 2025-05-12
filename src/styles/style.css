@@ -16,7 +16,7 @@ a {
 }
 
 header {
-  width: 90vw;
+  width: 99vw;
   height: 120px;
   background-color: #2C2C2C;
 
@@ -72,5 +72,3 @@ header {
   border-radius: 4px;
 }
 
-.header__link {
-}
