@@ -1,21 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <title>Dia</title>
-    <link
-      rel="stylesheet"
-      href="./styles/main.scss"
-    />
-  </head>
-  <body>
-    <h1>Dia</h1>
-    
-    <header>
+    /* <header>
       <div class="header__top-bar">
         <a class="header__logo" href="#">
           <img
@@ -31,7 +14,4 @@
         </ul>
         <div class="header__item"><a class="header__link active" href="#">Hire us</a></div>
       </div>
-    </header>
-    <script src="scripts/main.js"></script>
-  </body>
-</html>
+    </header> */
