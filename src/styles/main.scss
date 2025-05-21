@@ -1,11 +1,16 @@
 @import 'utils';
 @import 'fonts';
 @import 'typography';
+@import 'utils/mixins';
+@import './blocks/page';
 @import './blocks/header';
 @import './blocks/nav';
-
-body {
-  background: $c-gray;
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-}
+@import './blocks/slider';
+@import './blocks/who-we-are';
+@import './blocks/expertise';
+@import './blocks/services';
+@import './blocks/vision';
+@import './blocks/testimonials';
+@import './blocks/footer';
+@import './blocks/message';
+@import './blocks/contacts';
