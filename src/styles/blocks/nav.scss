@@ -1,11 +1,28 @@
 .nav {
+  width: inherit;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media(min-width: 640px) {
+    padding-top: 48px;
+  }
+ 
+  &__logo-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+  }
+
   &__logo {
     display: flex;
     color: #fff;
     text-decoration: none;
   }
 
-  &__img {
+  &__logo-img {
     width: 45px;
     height: 25px;
   }
@@ -18,6 +35,30 @@
   }
 
   &__item {
+    display: none;
+
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 3px;
+
+    @media(min-width: 640px) {
+      display: block;
+    }
+  }
+
+  &__item-menu {
+    @media(min-width: 640px) {
+      display: none;
+    }
+  }
+
+  &__item-last {
     position: relative;
     text-transform: uppercase;
     text-align: center;
@@ -30,8 +71,24 @@
   }
 
   &__link {
+    display: none;
+
     text-decoration: none;
     color: #fff;
+
+    @media(min-width: 640px) {
+      display: block;
+    }
+  }
+
+  &__link-last {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  &__link-menu {
+    width: 24px;
+    height: 24px;
   }
 }
 

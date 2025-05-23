@@ -22,7 +22,7 @@
   <!-- #endregion -->
   <!-- #region header -->
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <div class="container">
         <nav class="nav">
           <div class="nav__logo-wrap">
@@ -38,13 +38,13 @@
           </div>
 
           <ul class="nav__list">
-            <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Services</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Work</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Contact Us</a></li>
+            <li class="nav__item"><a class="nav__link" href="#about-us">About us</a></li>
+            <li class="nav__item"><a class="nav__link" href="#services">Services</a></li>
+            <li class="nav__item"><a class="nav__link" href="#testimonials">Testimonials</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contacts">Contact Us</a></li>
           </ul>
 
-          <div class="nav__item-last"><a class="nav__link-last active" href="#">Hire us</a></div>
+          <div class="nav__item-last"><a class="nav__link-last active" href="#hire-us">Hire us</a></div>
         </nav>
 
         <div class="header__strategic">
@@ -75,7 +75,7 @@
     <!-- endregion -->
     <!-- #region main  -->
     <main class="main">
-      <section class="who-we-are">
+      <section class="who-we-are" id="about-us">
         <div class="container">
           <div class="who-we-are__content">
             <h2 class="who-we-are__title">Who we are</h2>
@@ -135,7 +135,7 @@
         </div>
       </section>
 
-      <section class="services">
+      <section class="services" id="services">
         <div class="container">
           <div class="services__content">
             <div class="services__head">
@@ -149,68 +149,75 @@
             </div>
 
             <div class="services__items">
-              <div class="services__item">
-                <h4 class="services__number">001</h4>
-                <p class="services__description">
-                  Brand Development
-                  Copywriting
-                  Logo & Webite Design
-                  Packaging
-                </p>
-                <div class="services__learn">
-                  <img
-                    class="services__arrow"
-                    src="./images/learn-arrow.png"
-                    alt="arrow">
-                  <a href="#" class="services__link">Learn more</a>
+              <div class="services__item-wrapper">
+                <div class="services__item">
+                  <h4 class="services__number">001</h4>
+                  <p class="services__description">
+                    Brand Development
+                    Copywriting
+                    Logo & Webite Design
+                    Packaging
+                  </p>
+                  <div class="services__learn">
+                    <img
+                      class="services__arrow"
+                      src="./images/learn-arrow.png"
+                      alt="arrow">
+                    <a href="#" class="services__link">Learn more</a>
+                  </div>
                 </div>
-              </div>
-              <div class="services__item">
-                <h4 class="services__number">002</h4>
-                <p class="services__description">
-                  Сontent Production
-                  Graphic Design
-                  Video Production
-                  Post Production
-                </p>
-                <div class="services__learn">
-                  <img
-                    class="services__arrow"
-                    src="./images/learn-arrow.png"
-                    alt="arrow">
-                  <a href="#" class="services__link">Learn more</a>
+
+                <div class="services__item">
+                  <h4 class="services__number">002</h4>
+                  <p class="services__description">
+                    Сontent Production
+                    Graphic Design
+                    Video Production
+                    Post Production
+                  </p>
+                  <div class="services__learn">
+                    <img
+                      class="services__arrow"
+                      src="./images/learn-arrow.png"
+                      alt="arrow">
+                    <a href="#" class="services__link">Learn more</a>
+                  </div>
                 </div>
-              </div>
-              <div class="services__item">
-                <h4 class="services__number">003</h4>
-                <p class="services__description">
-                  Marketing Strategy
-                  Email Marketing
-                  Paid Advertising
-                  Blog Content & SEO
-                </p>
-                <div class="services__learn">
-                  <img
-                    class="services__arrow"
-                    src="./images/learn-arrow.png"
-                    alt="arrow">
-                  <a href="#" class="services__link">Learn more</a>
+
+                <div class="services__item">
+                  <h4 class="services__number">003</h4>
+                  <p class="services__description">
+                    Marketing Strategy
+                    Email Marketing
+                    Paid Advertising
+                    Blog Content & SEO
+                  </p>
+
+                  <div class="services__learn">
+                    <img
+                      class="services__arrow"
+                      src="./images/learn-arrow.png"
+                      alt="arrow"
+                    >
+                    <a href="#" class="services__link">Learn more</a>
+                  </div>
                 </div>
-              </div>
-              <div class="services__item">
-                <h4 class="services__number">004</h4>
-                <p class="services__description">
-                  Digital Communications
-                  Influencer Marketing
-                  Product Placements
-                  Strategic Partnerships
-                </p>
-                <div class="services__learn">
-                  <img
-                    class="services__arrow"
-                    src="./images/learn-arrow.png"
-                    alt="arrow">
-                  <a href="#" class="services__link">Learn more</a>
+
+                <div class="services__item">
+                  <h4 class="services__number">004</h4>
+                  <p class="services__description">
+                    Digital Communications
+                    Influencer Marketing
+                    Product Placements
+                    Strategic Partnerships
+                  </p>
+                  <div class="services__learn">
+                    <img
+                      class="services__arrow"
+                      src="./images/learn-arrow.png"
+                      alt="arrow">
+                    <a href="#" class="services__link">Learn more</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -218,11 +225,13 @@
         </div>
       </section>
 
-      <section class="testimonials">
+      <section class="testimonials" id="testimonials">
         <div class="container">
           <div class="testimonials__head">
-            <h2 class="testimonials__title">Testimonials</h2>
-            <p class="testimonials__sub-title">What people say</p>
+            <div class="testimonials__wrapper">
+              <h2 class="testimonials__title">Testimonials</h2>
+              <p class="testimonials__sub-title">What people say</p>
+            </div>
           </div>
 
           <div class="testimonials__cards">
@@ -319,7 +328,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__content">
-          <section class="message">
+          <section class="message" id="hire-us">
             <h2 class="message__title">Send us  a message</h2>
             <form class="message__form" action="#">
               <input
@@ -347,7 +356,7 @@
             </form>
           </section>
 
-          <section class="contacts">
+          <section class="contacts" id="contacts">
             <h2 class="contacts__title">Contact us</h2>
             <div class="contacts__items">
               <div class="contacts__item">
@@ -391,19 +400,19 @@
             </a>
             <ul class="footer__list">
               <li class="footer__item">
-                <a href="#" class="footer__link">About us</a>
+                <a href="#about-us" class="footer__link">About us</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Home</a>
+                <a href="#home" class="footer__link">Home</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Work</a>
+                <a href="#testimonials" class="footer__link">Testimonials</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Services</a>
+                <a href="#services" class="footer__link">Services</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Contact Us</a>
+                <a href="#contacts" class="footer__link">Contact Us</a>
               </li>
             </ul>
           </section>
@@ -413,7 +422,7 @@
     <!-- #endregion -->
 
 
-    
+
     <!-- #region test -->
 
     <!-- <header>

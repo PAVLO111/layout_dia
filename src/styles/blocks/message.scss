@@ -1,0 +1,56 @@
+.message {
+  font-family: Poppins;
+  color: #fff;
+
+  &__title {
+    font-weight: 600;
+    margin: 0;
+    font-size: 32px;
+    line-height: 130%;
+  }
+
+  &__form {
+    margin: 48px 0 0;
+    display: grid;
+    gap: 40px;
+  }
+
+  &__input {
+    height: 41px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: $dark-bg-color;
+    color: #fff;
+
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    color: #fff;
+  }
+
+  &__input:hover {
+    border-bottom: 1px solid #144ED4;
+  }
+
+  &__input:focus {
+    border-bottom: 1px solid #144ED4;
+  }
+
+  &__button {
+    height: 56px;
+    width: 100%;
+    margin-top: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #144ED4;
+
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    cursor: pointer;
+  }
+}

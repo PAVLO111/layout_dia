@@ -1,0 +1,40 @@
+.slider {
+  position: absolute;
+  bottom: 24px;
+
+  // width: 100%;
+
+  // background-image: url(../images/header/header-photo.png);
+  // border-radius: 30px;
+  // left: 0;
+  // margin-bottom: 24px;
+  color: #fff;
+
+  &__container {
+    padding-inline: 21px 19px;
+  }
+
+  &__buttons {
+    width: 80px;
+    height: 32px;
+    background-image: url(../images/slider/slider-arrow-buttons.png);
+  }
+
+  &__title {
+    margin: 16px 0 8px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 3px;
+    color: #fff;
+  }
+
+  &__text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+  }
+}
