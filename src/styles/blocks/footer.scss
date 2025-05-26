@@ -1,11 +1,15 @@
 .footer {
-
-  // z-index: -1;
+  display: grid;
+  gap: 80px;
 
   padding: 72px 0 80px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   background-color: $dark-bg-color;
+
+  @include on-tablet {
+    padding: 180px 0 80px;
+  }
 
   &__bottom-bar {
     @include small-desktop {
@@ -17,7 +21,12 @@
   &__content {
     display: grid;
     gap: 80px;
+
+    @include on-tablet {
+      gap: 120px;
+    }
   }
+
 
   &__logo {
     display: flex;
@@ -51,6 +60,46 @@
   &__link {
     text-decoration: none;
     color: #fff;
+  }
+
+
+
+  &__wrapper {
+    @include page-grid;
+
+    row-gap: 80px;
+
+    @include on-tablet {
+      row-gap: 120px;
+    }
+
+    @include small-desktop {
+      // grid-column: 1 / 6;
+    }
+  }
+
+  &__message {
+    grid-column: 1 / -1;
+
+    @include on-tablet {
+      grid-column: 1 / 5;
+    }
+
+    @include small-desktop {
+      grid-column: 1 / 6;
+    }
+  }
+
+  &__contacts {
+    grid-column: 1 / -1;
+
+    @include on-tablet {
+      grid-column: 1 / 5;
+    }
+
+    @include small-desktop {
+      grid-column: 7 / -2;
+    }
   }
 }
 

@@ -5,10 +5,10 @@
   justify-content: space-between;
   align-items: center;
 
-  @media(min-width: 640px) {
+  @media(min-width: 1024px) {
     padding-top: 48px;
   }
- 
+
   &__logo-wrap {
     display: flex;
     justify-content: space-between;
@@ -47,13 +47,13 @@
     line-height: 20px;
     letter-spacing: 3px;
 
-    @media(min-width: 640px) {
+    @media(min-width: 1024px) {
       display: block;
     }
   }
 
   &__item-menu {
-    @media(min-width: 640px) {
+    @media(min-width: 1024px) {
       display: none;
     }
   }
@@ -76,7 +76,7 @@
     text-decoration: none;
     color: #fff;
 
-    @media(min-width: 640px) {
+    @media(min-width: 1024px) {
       display: block;
     }
   }

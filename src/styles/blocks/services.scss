@@ -1,13 +1,9 @@
 .services {
   &__content {
     @include page-grid;
-
   }
 
   &__head {
-
-    // display: none !important;
-
     margin-bottom: 48px;
 
     grid-column: 1 / -1;
@@ -54,7 +50,7 @@
 
   &__sub-title {
     margin: 0;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 13px;
     line-height: 100%;
@@ -65,7 +61,7 @@
 
   &__title {
     margin: 16px 0 24px;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 130%;
@@ -73,12 +69,10 @@
   }
 
   &__text {
+    margin: 24px 0 32px;
     width: 250px;
 
-    // z-index: -2;
-
-    margin: 0;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
@@ -92,17 +86,16 @@
   &__item {
     box-sizing: border-box;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     height: 264px;
     padding: 32px;
     border-radius: 16px;
     background-color: #fff;
 
-    // grid-column: span 1;
-
     @include on-tablet {
-      // margin-bottom: 0;
-      // grid-row: span 3;
-
       grid-column: span 1;
     }
   }
@@ -120,8 +113,6 @@
     }
   }
 
-
-
   &__number {
     display: flex;
     justify-content: center;
@@ -135,7 +126,7 @@
     background-color: $gray-bg-color;
     color: #2060F6;
 
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 13px;
     line-height: 100%;
   }
@@ -145,7 +136,7 @@
     height: 80px;
     margin: 0;
 
-    font-family: "Open Sans";
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 150%;
@@ -153,8 +144,6 @@
   }
 
   &__learn {
-    position: absolute;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -168,12 +157,13 @@
     text-decoration: none;
     color: #334563;
 
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 100%;
   }
-
+  
   // #endregion
 }
+
 
