@@ -1,13 +1,21 @@
 .nav {
+  height: 78px;
+  
+    // padding-top: 20px;
+
   width: inherit;
-  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  @media(min-width: 1024px) {
-    padding-top: 48px;
+  @include small-desktop {
+    height: 120px;
+    margin-bottom: 0;
   }
+
+  // @media(min-width: 1024px) {
+  //   padding-top: 48px;
+  // }
 
   &__logo-wrap {
     display: flex;
