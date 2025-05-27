@@ -6,8 +6,7 @@
 
   // background-image: url(../images/header/header-photo.png);
   // border-radius: 30px;
-  // left: 0;
-  // margin-bottom: 24px;
+
   color: #fff;
 
   &__container {
@@ -22,7 +21,7 @@
 
   &__title {
     margin: 16px 0 8px;
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 13px;
     line-height: 100%;
@@ -31,7 +30,7 @@
   }
 
   &__text {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 140%;

@@ -1,8 +1,5 @@
 .nav {
   height: 78px;
-  
-    // padding-top: 20px;
-
   width: inherit;
   display: flex;
   justify-content: space-between;
@@ -12,10 +9,6 @@
     height: 120px;
     margin-bottom: 0;
   }
-
-  // @media(min-width: 1024px) {
-  //   padding-top: 48px;
-  // }
 
   &__logo-wrap {
     display: flex;
