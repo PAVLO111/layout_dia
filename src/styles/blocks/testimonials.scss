@@ -58,6 +58,8 @@
   background-color: #fff;
   text-align: center;
 
+  @include hover(transform, scale(1.1));
+
   &__response {
     margin: 24px 0 16px;
   }
