@@ -92,6 +92,8 @@
     border-radius: 16px;
     background-color: #fff;
 
+    @include hover(transform, scale(1.2));
+
     @include on-tablet {
       grid-column: span 1;
     }
@@ -165,6 +167,8 @@
 
   &__arrow {
     margin-right: 16px;
+
+    @include hover(transform, scale(1.2));
   }
 
   // #endregion
