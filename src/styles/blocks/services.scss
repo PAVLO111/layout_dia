@@ -151,6 +151,9 @@
   }
 
   &__link {
+    display: flex;
+    align-items: center;
+
     text-decoration: none;
     color: #334563;
 
@@ -158,6 +161,10 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 100%;
+  }
+
+  &__arrow {
+    margin-right: 16px;
   }
 
   // #endregion
