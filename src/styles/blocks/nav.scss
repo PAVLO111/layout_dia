@@ -48,13 +48,13 @@
     line-height: 20px;
     letter-spacing: 3px;
 
-    @media(min-width: 1024px) {
+    @media (min-width: 1024px) {
       display: block;
     }
   }
 
   &__item-menu {
-    @media(min-width: 1024px) {
+    @media (min-width: 1024px) {
       display: none;
     }
   }
@@ -77,7 +77,7 @@
     text-decoration: none;
     color: #fff;
 
-    @media(min-width: 1024px) {
+    @media (min-width: 1024px) {
       display: block;
     }
   }
@@ -96,12 +96,12 @@
 .active::after {
   position: absolute;
 
-  content: "";
+  content: '';
   left: 0;
   bottom: -55%;
 
   width: 67px;
   height: 2px;
-  background-color: #2060F6;
+  background-color: #2060f6;
   border-radius: 4px;
 }

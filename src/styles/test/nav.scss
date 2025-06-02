@@ -38,12 +38,12 @@
 .active::after {
   position: absolute;
 
-  content: "";
+  content: '';
   left: 0;
   bottom: -55%;
 
   width: 67px;
   height: 2px;
-  background-color: #2060F6;
+  background-color: #2060f6;
   border-radius: 4px;
 }

@@ -2,13 +2,30 @@
   position: absolute;
   bottom: 24px;
 
-  // width: 100%;
+  @include on-tablet {
+      bottom: 32px;
+    }
 
-  // background-image: url(../images/header/header-photo.png);
-  // border-radius: 30px;
+  @include small-desktop {
+   bottom: 48px;
+
+   display: flex;
+  }
 
   &__container {
-    padding-inline: 21px 19px;
+    padding-left: 21px;
+
+    @include on-tablet {
+      padding-left: 41px;
+    }
+
+    @include small-desktop {
+      padding-left: 78px;
+    }
+
+    @include desktop {
+      padding-left: 48px;
+    }
   }
 
   &__buttons {
@@ -27,6 +44,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
   }
 
   &__button-image {
@@ -34,17 +53,28 @@
     height: 9px;
   }
 
+  &__text {
+    margin-top: 16px;
+
+    @include small-desktop {
+      margin-top: 0;
+      margin-left: 24px;
+    }
+
+  }
+
   &__title {
-    margin: 16px 0 8px;
+    margin-bottom: 8px;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 13px;
     line-height: 100%;
     letter-spacing: 3px;
     color: #fff;
+    text-transform: uppercase;
   }
 
-  &__text {
+  &__metafora {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;

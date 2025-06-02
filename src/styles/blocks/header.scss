@@ -6,11 +6,9 @@
 }
 
 .header {
-  width: 100vw;
   background-color: $dark-bg-color;
-
-  // border-bottom-left-radius: 70px;
-  // border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 70px;
 
   &__section-wrapper {
     @include page-grid;
@@ -23,7 +21,12 @@
 
     grid-column: 1 / -1;
 
+    @include on-tablet {
+      margin-bottom: 147px;
+    }
+
     @include small-desktop {
+      margin-bottom: 205px;
       grid-column: 1 / 6;
     }
   }
@@ -55,7 +58,7 @@
   }
 
   &__text {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
@@ -74,13 +77,15 @@
     width: 100%;
     border: none;
     border-radius: 8px;
-    background-color: #2060F6;
+    background-color: #2060f6;
     color: #fff;
 
     font-weight: 600;
     font-size: 15px;
     line-height: 100%;
     text-align: center;
+
+    cursor: pointer;
 
     @include on-tablet {
       width: 264px;
@@ -90,11 +95,8 @@
 
   &__img {
     width: 100%;
+    height: 100%;
     border-radius: 30px;
     object-fit: cover;
-
-    @include small-desktop {
-      height: 680px;
-    }
   }
 }

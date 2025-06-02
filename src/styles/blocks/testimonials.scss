@@ -3,7 +3,6 @@
     font-family: Poppins, Arial, Helvetica, sans-serif;
 
     @include page-grid;
-
   }
 
   &__wrapper {
@@ -22,7 +21,7 @@
     line-height: 100%;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #C0CDD7;
+    color: #c0cdd7;
   }
 
   &__sub-title {
@@ -67,15 +66,15 @@
   &__text {
     margin: 0;
     margin-top: 8px;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 150%;
-    color: #6C788B;
+    color: #6c788b;
   }
 
   &__person {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 150%;

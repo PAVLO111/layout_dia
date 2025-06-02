@@ -40,6 +40,11 @@
     @include on-tablet {
       grid-template-columns: repeat(2, 1fr);
       gap: 30px;
+
+
+      // padding-right: 54px;
+
+      // margin-right: 94px;
     }
   }
 
@@ -52,7 +57,7 @@
     font-size: 13px;
     line-height: 100%;
     letter-spacing: 3px;
-    color: #C0CDD7;
+    color: #c0cdd7;
     text-transform: uppercase;
   }
 
@@ -69,11 +74,11 @@
     margin: 24px 0 32px;
     width: 250px;
 
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-    color: #6C788B;
+    color: #6c788b;
   }
 
   // #endregion
@@ -99,7 +104,6 @@
     }
   }
 
-
   &__item:first-child {
     @include on-tablet {
       margin-top: 138px;
@@ -109,6 +113,8 @@
   &__item:last-child {
     @include on-tablet {
       transform: translateY(-140px);
+
+      @include hover(transform, scale(1.2));
     }
   }
 
@@ -123,7 +129,7 @@
     margin-bottom: 24px;
     border-radius: 23px;
     background-color: $gray-bg-color;
-    color: #2060F6;
+    color: #2060f6;
 
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -135,11 +141,11 @@
     height: 80px;
     margin: 0;
 
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 150%;
-    color: #6C788B;
+    color: #6c788b;
   }
 
   &__learn {
@@ -173,5 +179,3 @@
 
   // #endregion
 }
-
-

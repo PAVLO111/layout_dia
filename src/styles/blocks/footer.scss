@@ -27,7 +27,6 @@
     }
   }
 
-
   &__logo {
     display: flex;
 
@@ -61,8 +60,6 @@
     text-decoration: none;
     color: #fff;
   }
-
-
 
   &__wrapper {
     @include page-grid;
@@ -102,4 +99,3 @@
     }
   }
 }
-
