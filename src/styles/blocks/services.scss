@@ -111,10 +111,10 @@
   }
 
   &__item:last-child {
+    @include hover(transform, scale(1.2));
+
     @include on-tablet {
       transform: translateY(-140px);
-
-      @include hover(transform, scale(1.2));
     }
   }
 
@@ -153,7 +153,7 @@
     justify-content: space-between;
     align-items: center;
 
-    width: 143px;
+    width: 153px;
     height: 40px;
     bottom: 32px;
   }
@@ -172,6 +172,8 @@
   }
 
   &__arrow {
+    width: 48px;
+    height: 48px;
     margin-right: 16px;
 
     @include hover(transform, scale(1.2));

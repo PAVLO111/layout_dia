@@ -69,10 +69,6 @@
     @include on-tablet {
       row-gap: 120px;
     }
-
-    @include small-desktop {
-      // grid-column: 1 / 6;
-    }
   }
 
   &__message {
