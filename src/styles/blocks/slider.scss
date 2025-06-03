@@ -3,13 +3,13 @@
   bottom: 24px;
 
   @include on-tablet {
-      bottom: 32px;
-    }
+    bottom: 32px;
+  }
 
   @include small-desktop {
-   bottom: 48px;
+    bottom: 48px;
 
-   display: flex;
+    display: flex;
   }
 
   &__container {
@@ -60,7 +60,6 @@
       margin-top: 0;
       margin-left: 24px;
     }
-
   }
 
   &__title {

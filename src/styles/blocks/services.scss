@@ -22,10 +22,16 @@
   }
 
   &__items {
+    box-sizing: border-box;
     display: grid;
     gap: 24px;
 
     grid-column: 1 / -1;
+
+    @include on-tablet {
+     width: 558px;
+     height: 690px;
+    }
 
     @include small-desktop {
       gap: 20px;
@@ -40,7 +46,6 @@
     @include on-tablet {
       grid-template-columns: repeat(2, 1fr);
       gap: 30px;
-
 
       // padding-right: 54px;
 
