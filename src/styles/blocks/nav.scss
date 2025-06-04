@@ -48,6 +48,8 @@
     line-height: 20px;
     letter-spacing: 3px;
 
+    @include hover(transform, scale(1.2));
+
     @media (min-width: 1024px) {
       display: block;
     }
