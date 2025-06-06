@@ -14,6 +14,8 @@
     margin: 48px 0 0;
     display: grid;
     gap: 40px;
+
+    color: #fff;
   }
 
   &__input {
@@ -36,6 +38,11 @@
 
   &__input:focus {
     border-bottom: 1px solid #144ed4;
+  }
+
+  &__input:autofill {
+    -webkit-text-fill-color: #fff;
+    box-shadow: 0 0 0px 1000px #2c2c2c inset;
   }
 
   &__button {
