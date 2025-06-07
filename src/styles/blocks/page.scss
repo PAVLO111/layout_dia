@@ -7,8 +7,10 @@ body {
   background: $gray-bg-color;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 400;
+}
 
- overflow: hidden;
+body:has(.page__menu:target) {
+  overflow: hidden; /* not to scroll the page */
 }
 
 .main {
