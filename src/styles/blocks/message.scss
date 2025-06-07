@@ -58,7 +58,10 @@
     font-size: 15px;
     line-height: 100%;
     text-align: center;
+    
     cursor: pointer;
+
+    @include hover(transform, scale(1.2));
 
     @include on-tablet {
       width: 264px;

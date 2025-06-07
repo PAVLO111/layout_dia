@@ -53,7 +53,7 @@
             <div class="nav__item-menu">
               <a
                 class="nav__link-menu"
-                href="#"
+                href="#menu"
               >
                 <img
                   src="./images/header/menu-icon.png"
@@ -151,8 +151,9 @@
               </div>
             </div>
           </div>
+
           <img
-            class="header__img header__photo"
+            class="header__img"
             src="./images/header/header_photo.png"
             alt="slider"
           />
@@ -160,6 +161,68 @@
       </div>
     </header>
     <!-- endregion -->
+    <!-- region menu -->
+    <aside class="menu" id="menu">
+      <div class="container">
+        <nav class="na">
+          <div class="menu__logo-wrap">
+            <a
+              class="nav__logo"
+              href="#"
+            >
+              <img
+                class="nav__logo-img"
+                src="./images/logo/air-logo.png"
+                alt="logo-air"
+              />
+            </a>
+
+            <a
+              class="nav__link-close active"
+              href="#home"
+            >
+              X
+            </a>
+          </div>
+        </nav>
+
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a
+              class="menu__link"
+              href="#about-us"
+            >
+              About us
+            </a>
+          </li>
+          <li class="menu__item">
+            <a
+              class="menu__link"
+              href="#services"
+            >
+              Services
+            </a>
+          </li>
+          <li class="menu__item">
+            <a
+              class="menu__link"
+              href="#testimonials"
+            >
+              Testimonials
+            </a>
+          </li>
+          <li class="menu__item">
+            <a
+              class="menu__link"
+              href="#contacts"
+            >
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- #endregion -->
     <!-- #region main  -->
     <main class="main">
       <section
@@ -447,11 +510,15 @@
       <div class="container">
         <div class="footer__content">
           <div class="footer__wrapper">
-            <section class="footer__message" id="hire-us">
+            <section
+              class="footer__message"
+              id="hire-us"
+            >
               <h2 class="message__title">Send us a message</h2>
               <form
                 class="message__form"
                 action="#"
+                onsubmit="this.reset(); return false;"
               >
                 <input
                   class="message__input"
@@ -460,7 +527,9 @@
                   id="email"
                   placeholder="Your email"
                   autocomplete="email"
+                  required
                 />
+
                 <input
                   class="message__input"
                   type="text"
@@ -468,7 +537,9 @@
                   id="name"
                   placeholder="Your name"
                   autocomplete="name"
+                  required
                 />
+
                 <input
                   class="message__input"
                   type="text"
@@ -476,18 +547,25 @@
                   id="message"
                   placeholder="Your message"
                   autocomplete="message"
+                  required
                 />
                 <button class="message__button">Send</button>
               </form>
             </section>
 
-            <section class="footer__contacts" id="contacts">
+            <section
+              class="footer__contacts"
+              id="contacts"
+            >
               <h2 class="contacts__title">Contact us</h2>
               <div class="contacts__items">
                 <div class="contacts__item">
                   <p class="contacts__name">Call us</p>
                   <p class="contacts__content">
-                    <a href="tel:654321987" class="contacts__link">
+                    <a
+                      href="tel:654321987"
+                      class="contacts__link"
+                    >
                       654 321 987
                     </a>
                   </p>
